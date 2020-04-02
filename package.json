@@ -1,0 +1,11 @@
+{
+  "name": "fc-jail-tracker",
+  "version": "0.1.0",
+  "description": "Scrape data from Franklin County Sherrif booking search",
+  "main": "index.js",
+  "author": "Jacob Patterson <jacob@jacobpa.com>",
+  "license": "Unlicense",
+  "dependencies": {
+    "puppeteer": "^2.1.1"
+  }
+}
