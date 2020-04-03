@@ -9,15 +9,15 @@ providedby the state of Ohio.
 It is to facilitate tracking the count of inmates in Franklin County's jails in the midst of the
 COVID-19 outbreak.
 
-## How can I use it?
+### How can I use it?
 Wait until it's done, then I'll explain more, I promise! Until then, figure it out, or if you want
 you can bug me personally. This project shouldn't get too complex, though, so it shouldn't be too
 terrible to figure out.
 
-## I'm from the State of Ohio/Franklin County Sheriff's Department, stop using our data!
+### I'm from the State of Ohio/Franklin County Sheriff's Department, stop using our data!
 Okay! Email me at [jacob@jacobpa.com](jacob@jacobpa.com), and I'll be happy to destroy this project.
 
-## License
+### License
 ```
 This is free and unencumbered software released into the public domain.
 
