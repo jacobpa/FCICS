@@ -7,7 +7,7 @@
     "fcics": "./bin/inmate-scrape.js"
   },
   "scripts": {
-    "inmate-scrape": "node ./bin/inmate-scrape.js"
+    "scrape": "node ./bin/inmate-scrape.js"
   },
   "author": "Jacob Patterson <jacob@jacobpa.com>",
   "license": "Unlicense",
