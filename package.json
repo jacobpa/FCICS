@@ -1,7 +1,7 @@
 {
-  "name": "fc-jail-tracker",
-  "version": "0.1.0",
-  "description": "Scrape data from Franklin County Sherrif booking search",
+  "name": "FCICS",
+  "version": "0.2.0",
+  "description": "Franklin County Inmate and COVID-19 Scraper",
   "main": "lib/jails/scraper",
   "bin": {
     "scrape-fc-inmates": "./scrape-fc-inmates.js"
