@@ -1,6 +1,11 @@
 const elements = {
     races: ['A', 'B', 'H', 'I', 'U', 'W'],
-    genders: ['F', 'M', 'T', 'U'],
+    genders: {
+        male: 'M',
+        female: 'F',
+        transgender: 'T',
+        unknown: 'U'
+    },
     searchButton: 'input#btnSearch',
     genderSelector: 'select#GenderList',
     raceSelector: 'select#RaceList',
@@ -25,7 +30,13 @@ class BookingPage {
         await this.page.goto(FCCBookingURL);
     }
     
-    async search() {
+    async search(options = {}) {
+        const {
+            gender = ''
+        } = options;
+
+        await this.page.select(elements.genderSelector, gender);
+
         await Promise.all([
             this.page.waitForNavigation(),
             this.page.click(elements.searchButton)
@@ -38,4 +49,4 @@ class BookingPage {
     }
 }
 
-module.exports = BookingPage;
+module.exports = {BookingPage, genders: elements.genders};

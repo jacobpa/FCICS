@@ -1,4 +1,12 @@
 #!/usr/bin/env node
 const scraper = require('./src/scraper');
 
-scraper.scrape();
+(async () => {
+    const inmates = await scraper.scrapeTotal();
+    console.log(`There are a total ${inmates} in Franklin County jails.`);
+})();
+
+(async() => {
+    const inmatesByGender = await scraper.scrapeByGender();
+    console.log(`There are ${inmatesByGender.male} male inmates and ${inmatesByGender.female} inmates in Franklin County jails.`);
+})();
