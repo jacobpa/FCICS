@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-const scraper = require('./src/scraper');
+const scraper = require('./lib/jails/scraper');
 
 (async () => {
     const inmates = await scraper.scrapeTotal();

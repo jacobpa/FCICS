@@ -2,7 +2,7 @@
   "name": "fc-jail-tracker",
   "version": "0.1.0",
   "description": "Scrape data from Franklin County Sherrif booking search",
-  "main": "src/scraper",
+  "main": "lib/jails/scraper",
   "bin": {
     "scrape-fc-inmates": "./scrape-fc-inmates.js"
   },
