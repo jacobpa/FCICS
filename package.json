@@ -4,10 +4,10 @@
   "description": "Franklin County Inmate and COVID-19 Scraper",
   "main": "lib/jails/scraper",
   "bin": {
-    "scrape-fc-inmates": "./scrape-fc-inmates.js"
+    "fcics": "./bin/inmate-scrape.js"
   },
   "scripts": {
-    "scrape": "node scrape-fc-inmates.js"
+    "inmate-scrape": "node ./bin/inmate-scrape.js"
   },
   "author": "Jacob Patterson <jacob@jacobpa.com>",
   "license": "Unlicense",

@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-const scraper = require('./lib/jails/scraper');
+const scraper = require('../lib/jails/scraper');
 
 (async () => {
     const inmates = await scraper.scrapeTotal();
@@ -8,5 +8,5 @@ const scraper = require('./lib/jails/scraper');
 
 (async() => {
     const inmatesByGender = await scraper.scrapeByGender();
-    console.log(`There are ${inmatesByGender.male} male inmates and ${inmatesByGender.female} inmates in Franklin County jails.`);
+    console.log(`There are ${inmatesByGender.male} male inmates and ${inmatesByGender.female} female inmates in Franklin County jails.`);
 })();
