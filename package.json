@@ -12,8 +12,8 @@
   "author": "Jacob Patterson <jacob@jacobpa.com>",
   "license": "Unlicense",
   "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
     "csvtojson": "^2.0.10",
-    "got": "^10.7.0",
-    "puppeteer": "^2.1.1"
+    "got": "^10.7.0"
   }
 }
