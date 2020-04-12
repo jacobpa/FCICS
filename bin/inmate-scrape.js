@@ -20,5 +20,5 @@ const CovidClient = require('../lib/covid/client');
 (async() => {
     const client = new CovidClient();
     const cases = await client.get()
-    console.log(`There are ${cases.male} male and ${cases.female} female cases for a total of ${cases.total} total cases of COVID-19 in Franklin County.`);
+    console.log(`There are ${cases.male} male, ${cases.female} female, and ${cases.unknown} unknown sex cases for a total of ${cases.total} total cases of COVID-19 in Franklin County.`);
 })();

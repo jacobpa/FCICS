@@ -1,6 +1,6 @@
 {
   "name": "FCICS",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Franklin County Inmate and COVID-19 Scraper",
   "main": "lib/index.js",
   "bin": {
