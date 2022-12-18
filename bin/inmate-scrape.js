@@ -5,7 +5,7 @@ const CovidClient = require('../lib/covid/client');
 (async () => {
     const client = new JailClient();
     const inmates = await client.search();
-    console.log(`There are a total ${inmates} in Franklin County jails.`);
+    console.log(`There are a total of ${inmates} inmates in Franklin County jails.`);
 })();
 
 (async() => {
@@ -20,5 +20,5 @@ const CovidClient = require('../lib/covid/client');
 (async() => {
     const client = new CovidClient();
     const cases = await client.get()
-    console.log(`There are ${cases.male} male, ${cases.female} female, and ${cases.unknown} unknown sex cases for a total of ${cases.total} total cases of COVID-19 in Franklin County.`);
+    console.log(`There are ${cases.male} male, ${cases.female} female, and ${cases.unknown} unknown cases for a total of ${cases.total} total cases of COVID-19 in Franklin County.`);
 })();
